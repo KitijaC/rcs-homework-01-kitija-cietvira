@@ -1,0 +1,121 @@
+body {
+    background-color:rgb(254, 238, 219);
+    margin: 20px;
+    font-family: 'Noto Sans Display', sans-serif;
+    font-family: 'Noto Serif Display', serif;
+    font-family: 'Roboto', sans-serif;
+ }
+
+.heading {
+   color: rgb(61, 5, 5); 
+   
+}
+
+.heading--first {
+    font-size: 90px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 0;
+}
+
+.heading--second {
+    margin-top: 0;
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    color:grey;
+}
+
+.heading--third {
+    margin-top:50px;
+    text-indent: 30px;
+}
+
+.heading--fourth {
+    text-align: center;
+    margin-top: 0;
+    color: grey;
+}
+
+span {
+    font-weight: bold;
+ }
+
+ .text {
+    text-align:justify;
+    line-height: 1.5;
+    text-indent: 30px;
+ }
+
+ .center {
+    text-align: center;
+ }
+
+ .image {
+    margin-top: 20px;
+ }
+
+ .image--first {
+    width:30%;
+    height:30%;
+    margin-bottom: 40px;
+ }
+
+ .image--second {
+    width:30%;
+    height:30%;
+ }
+
+ .list {
+    line-height: 1.5;
+    margin-bottom: 40px;
+ }
+
+ .list--unordered {
+    font-style: italic;
+ }
+
+ .list--ordered {
+    color: rgb(52, 50, 50);
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+ .btn {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.34s ease-in, color 0.34s ease-in;
+ }
+
+ .btn--primary {
+    background-color: rgb(40, 39, 39); 
+    border: 1px solid rgb(40, 39, 39);
+ }
+
+ .btn--primary:hover {
+    background-color: white;
+    color: rgb(40, 39, 39);
+ }
+
+ .btn--secondary {
+    background-color: rgb(61, 5, 5); 
+    border: 1px solid rgb(61, 5, 5); 
+}
+.btn--secondary:hover {
+    background-color: white;
+    color: rgb(61, 5, 5); 
+}
+
+.container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+ .footer {
+    color:grey;
+    text-align:center;
+ }
